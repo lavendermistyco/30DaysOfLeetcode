@@ -8,6 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        HappyNumbers h = new HappyNumbers();
+        System.out.println(h.isHappy(19));
+
+
     }
 }
